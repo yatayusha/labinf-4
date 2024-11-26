@@ -30,6 +30,7 @@ docker run -it aafire /usr/bin/aafire
 Затем создаю новый образ `aafire-ping`
 ```
 sudo docker build -t aafire-ping
+```
 
 В образе помимо aafire устанавливаю пакет с утилитой `ping`:
 
@@ -54,7 +55,6 @@ sudo docker ps
 С помощью команды `docker network create myNetwork` создаю сеть:
 
 ![image!](createnetwork.png)
-
 
 После этого нужно будет подключить контейнеры к вашей сети. Названия контейнеров можно увидеть при выводе списка действующих контейнеров у вас на машине.
 ```
