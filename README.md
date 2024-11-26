@@ -21,7 +21,7 @@ docker run -it aafire /usr/bin/aafire
 ```
 
 Результат работы программы:
-[image!](result.png)
+![image!](result.png)
 
 И уже напрямую в терминале контейнера запустить команду
 ```
