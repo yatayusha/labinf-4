@@ -50,8 +50,7 @@ sudo docker run -it --name image_2 aafire-ping /usr/bin/aafire
 sudo docker ps
 ```
 ![image!](dockerps.png)
-
-Далее запускаю два контейнера с aafire и оставляю их в работающем состоянии.  
+  
 С помощью команды `docker network create myNetwork` создаю сеть:
 
 ![image!](createnetwork.png)
