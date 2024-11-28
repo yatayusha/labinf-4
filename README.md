@@ -38,7 +38,7 @@ RUN apt update && apt install -y libaa-bin iputils-ping
 sudo docker build -t aafire-ping
 ```
 
-Далее запускаю контейнер на основе нового созданного образа. При создании контенера передаю ему запуск приложения `aafire`:
+Далее запускаю два контейнера на основе нового созданного образа. При создании контейнеров передаю ему запуск приложения `aafire`:
 ```
 sudo docker run -it --name image_1 aafire-ping /usr/bin/aafire
 ```
