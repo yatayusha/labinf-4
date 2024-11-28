@@ -60,12 +60,13 @@ sudo docker ps
 docker network connect myNetwork image_1
 docker network connect myNetwork image_2
 ```
-![image!](connectnetwork.png)
-
 Теперь смотрю настройки сети при помощи следующей команды:
 ```
 docker network inspect myNetwork
 ```
+
+![image!](connectnetwork.png)
+
 Далее тестирую соединение между контейнерами утилитой `ping`:
 
 ![image!](pinggg.png)
